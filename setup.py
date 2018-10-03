@@ -2,8 +2,10 @@
 import os
 from distutils.core import setup
 
-requirements = ['Flask',
-                'requests']
+requirements = [
+    'Flask',
+    'requests',
+]
 
 def read(fname):
     try:
